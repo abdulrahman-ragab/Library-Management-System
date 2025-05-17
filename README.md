@@ -83,8 +83,7 @@ g++ -std=c++14 main.cpp src/*.cpp -Ihpp -o LibrarySystem
 ---
 
 ## 👤 Author
-Abdulrahman Ragab
-Mechatronics Engineer
+Abdulrahman Ragab | Mechatronics Engineer
 
 ---
 ## 📃 License
