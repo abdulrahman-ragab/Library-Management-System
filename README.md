@@ -33,11 +33,15 @@ Edit
 ### 👨‍💼 Librarian
 - Add, remove, and update books
 - View all available books
+- View all borrowing records
 
 ### 👤 Member
-- Search and borrow books
+- Borrow books
 - Return books and add reviews
 - View borrowing history
+
+### 👤 Visitor
+- Search for books by Title or Author
 
 ---
 
@@ -53,7 +57,7 @@ Edit
 Open a terminal in the project directory and run:
 
 ```bash
-g++ -std=c++11 main.cpp src/*.cpp -Ihpp -o LibrarySystem
+g++ -std=c++14 main.cpp src/*.cpp -Ihpp -o LibrarySystem
 ./LibrarySystem
 🧠 Concepts Demonstrated
 Object-Oriented Programming (OOP)
@@ -66,19 +70,11 @@ Simple user management system
 
 Book database simulation
 
-📌 Future Improvements
-File-based persistence for books and users
 
-Password masking and authentication
 
-Exception handling
-
-Smart pointer usage (e.g., std::unique_ptr)
-
-Test automation and unit testing
 
 👤 Author
-[Your Name Here]
+[Abdulrahman Ragab]
 
 Feel free to fork, use, and enhance this project!
 
