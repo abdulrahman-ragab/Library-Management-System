@@ -9,22 +9,19 @@ A simple console-based C++ Library Management System demonstrating Object-Orient
 LibraryManagementSystem/
 ├── main.cpp # Entry point
 ├── README.md
-├── hpp/ # Header files (declarations)
+├── hpp/ # Header files
 │ ├── BookInfo.hpp
 │ ├── BorrowRecord.hpp
 │ ├── DataBase.hpp
 │ ├── Screens.hpp
 │ └── UserManager.hpp
-├── src/ # Source files (definitions)
+├── src/ # Source files
 │ ├── BookInfo.cpp
 │ ├── BorrowRecord.cpp
 │ ├── DataBase.cpp
 │ ├── Screens.cpp
 │ └── UserManager.cpp
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -58,42 +55,9 @@ Open a terminal in the project directory and run:
 
 ```bash
 g++ -std=c++14 main.cpp src/*.cpp -Ihpp -o LibrarySystem
-./LibrarySystem
+./LibrarySystemm
 
----
+```/bash
 
-## 🧠 Concepts Demonstrated
-Object-Oriented Programming (OOP)
+## 🚀 Build & Run
 
-Class design and separation of concerns
-
-Standard Template Library (STL): vectors, strings
-
-Simple user management system
-
-Book database simulation
-
----
-
-## 📦 To Do (Future Work)
-
-- Add persistent storage using file I/O or SQLite
-
-- Implement due dates and late return handling
-
-- Make GUI for improving user experience 
-
-
-👤 Author
-[Abdulrahman Ragab]
-
-Feel free to fork, use, and enhance this project!
-
-📃 License
-This project is open-source and available for educational and personal use.
-
-vbnet
-Copy
-Edit
-
-Let me know if you'd like me to generate badges (like build status, license
