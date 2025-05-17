@@ -59,7 +59,10 @@ Open a terminal in the project directory and run:
 ```bash
 g++ -std=c++14 main.cpp src/*.cpp -Ihpp -o LibrarySystem
 ./LibrarySystem
-🧠 Concepts Demonstrated
+
+---
+
+## 🧠 Concepts Demonstrated
 Object-Oriented Programming (OOP)
 
 Class design and separation of concerns
@@ -70,7 +73,15 @@ Simple user management system
 
 Book database simulation
 
+---
 
+## 📦 To Do (Future Work)
+
+- Add persistent storage using file I/O or SQLite
+
+- Implement due dates and late return handling
+
+- Make GUI for improving user experience 
 
 
 👤 Author
